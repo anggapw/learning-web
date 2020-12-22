@@ -4,19 +4,31 @@ body {
   background-color: whitesmoke;
   margin: 0;
   padding: 0;
-  /* margin: 1rem 2.5rem; */
+}
+
+button {
+  width: 200px;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: whitesmoke;
+  background-color: #e48800;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header-wrapper {
+  background-color: teal;
+  padding: 32px 160px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: teal;
-  padding: 1rem 3rem;
-  height: 500px;
-}
-
-.navbar .logo {
-  /* width: 30%; */
 }
 
 .nav-link {
@@ -30,24 +42,56 @@ body {
   overflow: hidden;
 }
 
-.nav-link li {
+.nav-link ul li {
   float: left;
 }
 
-.nav-link li a {
+.nav-link ul li a {
   display: block;
-  color: #0b162b;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
 }
 
-.nav-link li a:hover:not(.active) {
+.nav-link ul li a:hover {
   color: #e48800;
 }
 
 .active {
   color: #e48800;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.header-text .first-line {
+  display: flex;
+  font-size: 32px;
+}
+
+.header-text h1 {
+  margin: 1rem;
+  color: whitesmoke;
+}
+
+.header-text-button {
+  margin-top: 48px;
+}
+
+.header-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
