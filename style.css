@@ -368,11 +368,11 @@ button {
   margin-bottom: 1rem;
 }
 
-.exclusive-partner .image {
+.exclusive-partner {
   display: flex;
   justify-content: space-around;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.4;
   padding: 1rem 160px;
   align-items: center;
 }
