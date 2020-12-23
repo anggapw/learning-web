@@ -1,73 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
     <title>E-Learning</title>
-  </head>
-  <body>
-    <section class="header-wrapper">
-      <div class="navbar">
-        <div class="logo">
-          <img src="/images/refactory-hd.png" alt="logo" />
-        </div>
-        <div class="nav-link">
-          <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Custom Trainings</a></li>
-            <li><a href="#">Case Studies</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-      </div>
+</head>
 
-      <div class="header">
-        <div class="header-text">
-          <div class="first-line">
-            <h1>Empowering</h1>
-            <h1 style="margin-left: 0; font-weight: 900; color: #e48800">
-              People
-            </h1>
-          </div>
-          <h1>Through Programming</h1>
-          <div class="header-text-button">
-            <button>Find Your Solution</button>
-            <button>Improve Your Skill</button>
-          </div>
+<body>
+    <section class="header-wrapper">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/images/refactory-hd.png" alt="logo" />
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Custom Trainings</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo"
+          ><img src="/images/refactory-hd.png" alt="logo"
+        /></a>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="#" class="nav-links">Home</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Products</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Contact Us</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Blog</a>
+          </li>
+        </ul>
+      </nav> -->
+
+        <div class="header">
+            <div class="header-text">
+                <div class="first-line">
+                    <h1>Empowering</h1>
+                    <h1 style="margin-left: 0; font-weight: 900; color: #e48800">
+                        People
+                    </h1>
+                </div>
+                <div class="second-line">
+                    <h1 style="margin-top: 0">Through Programming</h1>
+                </div>
+                <div class="header-text-button">
+                    <button>Find Your Solution</button>
+                    <button>Improve Your Skill</button>
+                </div>
+            </div>
+            <div class="header-image">
+                <img src="/images/header-image.png" alt="" />
+            </div>
         </div>
-        <div class="header-image">
-          <img src="/images/header-image.png" alt="" />
-        </div>
-      </div>
     </section>
 
     <section class="popular-course">
-      <div class="popular-title"></div>
-      <div class="course-list"></div>
+        <div class="section-title">
+            <h1>Course Path</h1>
+        </div>
+        <div class="course-list">
+            <div class="card">
+                <img src="/images/frontend-dev.png" alt="logo" />
+                <div class="text">
+                    <p>front-end</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/images/backend-dev.png" alt="logo" />
+                <div class="text">
+                    <p>back-end</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/images/quality-assurance.png" alt="logo" />
+                <div class="text">
+                    <p>QA</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/images/devops.png" alt="logo" />
+                <div class="text">
+                    <p>devops</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="featured">
-      <div class="featured-image"></div>
-      <div class="featured-list"></div>
+        <div class="section-title">
+            <h1>Boost Your Development Skill</h1>
+        </div>
+
+        <div class="featured-content">
+            <div class="featured-image">
+                <img src="/images/featured.png" alt="" />
+            </div>
+            <div class="featured-list">
+                <div class="featured-card">
+                    <div class="text">
+                        <img src="/images/featured-img1.png" alt="" />
+                        <p>Lifetime Access</p>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="text">
+                        <img src="/images/featured-img2.png" alt="" />
+                        <p>Experienced Mentor</p>
+                    </div>
+                </div>
+
+                <div class="featured-card">
+                    <div class="text">
+                        <img src="/images/featured-img3.png" alt="" />
+                        <p>One-Stop IT Solution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
     </section>
 
     <section class="testimonial">
-      <div class="testimonial-image"></div>
-      <div class="testimonial-text"></div>
-      <div class="testimonial-image"></div>
+        <div class="testimonial-content">
+            <div class="content">
+                <img src="/images/testi1.jpg" alt="Avatar" class="avatar">
+                <div class="content-text">
+                    <p> David Lucius, 19</p>
+                    <p>ITB</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content-text">
+                    <p>Adam Zapel, 20</p>
+                    <p>Telkom University</p>
+                </div>
+                <img src="/images/testi2.jpg" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="content">
+                <img src="/images/testi3.jpg" alt="Avatar" class="avatar">
+                <div class="content-text">
+                    <p> Alfred Leopoldo, 23</p>
+                    <p>Fresh Graduate</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-text">
+            <h1>1k ++</h1>
+            <h1>Satisfied Students</h1>
+        </div>
+        <div class="testimonial-content">
+            <div class="content">
+                <div class="content-text">
+                    <p>Marijeta Stefania, 28</p>
+                    <p>Profesional</p>
+                </div>
+                <img src="/images/testi4.jpg" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="content">
+                <img src="/images/testi5.jpg" alt="Avatar" class="avatar">
+                <div class="content-text">
+                    <p>Alexandrine Roxane, 24</p>
+                    <p>Front-end Engineer</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content-text">
+                    <p>Róbert Rohit, 21</p>
+                    <p>Internship Developer</p>
+                </div>
+                <img src="/images/testi6.jpg" alt="Avatar" class="avatar">
+            </div>
+        </div>
     </section>
 
-    <div class="footer">
-      <div class="sitemap"></div>
-      <div class="company"></div>
-      <div class="social-media"></div>
-    </div>
-  </body>
+    <section class="footer">
+        <div class="about">
+            <div class="title">
+                <h4>About Refactory</h4>
+            </div>
+            <p>Refactory adalah perusahaan edukasi dan teknologi yang menyediakan layanan lengkap berupa course maupun
+                custom training yang materinya dapat disesuaikan dengan kebutuhan teknologi dan bisnis perusahaan Anda
+            </p>
+        </div>
+        <div class="sitemap">
+            <div class="title">
+                <h4>Sitemap</h4>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bootcamp</a></li>
+                <li><a href="#">Software Development</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Custom Trainings</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="company">
+            <div class="title">
+                <h4>Company</h4>
+            </div>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careeer</a></li>
+                <li><a href="#">Press Kit</a></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="social-media">
+
+            <div class="social-icon">
+                <h1><i class="fab fa-facebook"></i></h1>
+                <h1><i class="fab fa-linkedin"></i></h1>
+                <h1><i class="fab fa-instagram"></i></h1>
+                <h1><i class="fab fa-youtube"></i></h1>
+            </div>
+            <div class="address">
+                <p>
+                    Jln. Palagan Tentara Pelajar
+                    Km. 9,8
+                    Ngaglik, Kab. Sleman
+                    DI Yogyakarta 55581
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+
 </html>
